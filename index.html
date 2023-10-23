@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/Adobe.svg" type="image/x-icon">
     <title>FINANCE-X</title>
     <link rel="stylesheet" href="./css/satoshi.css">
     <link rel="stylesheet" href="./css/styles.css">
@@ -15,10 +16,10 @@
             <p class="logo">FinanceX</p>
             <div class="menu-block">
                 <ul>
-                    <li>Why FinanceX</li>
-                    <li>Features</li>
-                    <li>Update</li>
-                    <li>Blog</li>
+                    <li class="menu1">Why FinanceX</li>
+                    <li class="menu2">Features</li>
+                    <li class="menu3">Update</li>
+                    <li class="menu4">Blog</li>
                 </ul>
             </div>
             <div class="sign-up">
@@ -171,7 +172,7 @@
                 <p class="more-info">Learn more <span><img src="./img/arrowRightW.svg" alt="arrowRightW"></span></p>
             </div>
             <div class="globalpay-block active">
-                <div class="globalpay-picture active">
+                <div class="globalpay-picture">
                     <img src="./img/global.svg" alt="location">
                 </div>
                 <h3 class="globalpay-title">Built for global
@@ -198,16 +199,21 @@
                 </div>
                 <div class="buttons">
                     <div class="btn left">
-                        <img src="./img/businB.svg" alt="businB">
+                        <svg class="left-img" width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 17L2 9L10 1" stroke="#151515" stroke-width="2" stroke-linecap="round"/>
+                        </svg>                            
                     </div>
                     <div class="btn right">
-                        <img src="./img/businW.svg" alt="businW">
+                        <svg class="right-img" width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 17L9 9L0.999999 0.999999" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            
                     </div>
                 </div>
             </div>
         </div>
         <div class="reviews">
-            <div class="reviews-block">
+            <div class="reviews-block first">
                 <p class="reviews-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit
                     amet luctus venenatis,
                     lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis
@@ -259,7 +265,7 @@
                     </div>
                 </div>
             </div>
-            <div class="reviews-block">
+            <div class="reviews-block last">
                 <p class="reviews-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit
                     amet luctus venenatis,
                     lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis
@@ -380,6 +386,8 @@
             <p>Copyright @ Kartik Bansal 2022. All Rights Reserved.</p>
         </footer>
     </div>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>

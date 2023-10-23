@@ -8,6 +8,19 @@
     --grey: #B9B9B9;
 }
 
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--grey);
+    border-radius: 5px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #000;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -18,6 +31,29 @@ ul,
 a {
     text-decoration: none;
     list-style-type: none;
+    color: var(--grey);
+}
+
+li,
+button {
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+li:hover {
+    opacity: 0.5;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+li:active {
+    opacity: 1;
+}
+
+button:active {
+    opacity: 1;
 }
 
 body {
@@ -84,6 +120,16 @@ body {
 .sign-up {
     display: flex;
     column-gap: 10px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.sign-up:hover {
+    opacity: 0.5;
+}
+
+.sign-up:active {
+    opacity: 0.8;
 }
 
 .hero-section {
@@ -157,10 +203,15 @@ body {
     width: 352px;
     height: 454px;
     padding: 60px 40px;
+    transition: background-color 0.3s ease;
 }
 
 .services-active {
     background-color: #2E2E2E;
+}
+
+.services-active .arrow-top {
+    background-color: var(--green);
 }
 
 .services-line {
@@ -196,10 +247,7 @@ body {
     display: grid;
     place-items: center;
     background-color: var(--white);
-}
-
-.arrow-active {
-    background-color: var(--green);
+    transition: background-color 0.3s ease;
 }
 
 
@@ -272,10 +320,15 @@ body {
     width: 390px;
     border: 1px solid #2E2E2E;
     height: 354px;
+    transition: background-color 0.3s ease;
 }
 
 .globalpay-block.active {
     background-color: #2E2E2E;
+}
+
+.globalpay-block.active .globalpay-picture {
+    background-color: var(--green);
 }
 
 .globalpay-picture {
@@ -285,10 +338,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.globalpay-picture.active {
-    background-color: var(--green);
+    transition: background-color 0.3s ease;
 }
 
 .globalpay-title {
@@ -306,6 +356,7 @@ body {
 .more-info {
     font-size: 16px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .businesses {
@@ -319,6 +370,8 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 50px;
+    position: relative;
+    z-index: 1;
 }
 
 .information {
@@ -352,19 +405,39 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .left {
     background-color: inherit;
 }
 
+.left:hover {
+    background-color: #151515;
+}
+
+.left:hover .left-img path {
+    stroke: #FFFF;
+    transition: stroke 0.3s;
+}
+
 .right {
     background-color: #151515;
 }
 
+.right:hover {
+    background-color: inherit;
+}
+
+.right:hover .right-img path {
+    stroke: #151515;
+    transition: stroke 0.3s;
+}
+
 table {
     z-index: 0;
-    max-width: 100%;
+    width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
@@ -377,10 +450,15 @@ td {
 }
 
 .reviews {
+    overflow-x: scroll;
     position: relative;
     z-index: 1;
     display: flex;
     column-gap: 35px;
+}
+
+.reviews::-webkit-scrollbar {
+    height: 0;
 }
 
 .reviews-block {
@@ -454,8 +532,6 @@ td {
     display: flex;
 }
 
-.social-block {}
-
 .social-info {
     max-width: 213px;
     font-size: 13px;
@@ -467,6 +543,10 @@ td {
 .social {
     display: flex;
     column-gap: 20px;
+}
+
+.social img {
+    cursor: pointer;
 }
 
 .company {
@@ -488,7 +568,6 @@ td {
 }
 
 .footer-info li {
-    text-decoration: none;
     margin-bottom: 10px;
     color: var(--grey);
 }
@@ -539,14 +618,14 @@ td {
     color: #000;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100px;
 }
 
-footer p{
+footer p {
     font-size: 16px;
     color: var(--grey);
 }
