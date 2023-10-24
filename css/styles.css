@@ -1485,3 +1485,388 @@ footer p {
         font-size: 12px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .container {
+        max-width: 400px;
+    }
+
+    .started {
+        font-weight: 600;
+        padding: 8px 17px;
+        font-size: 9px;
+    }
+
+    .started img {
+        width: 12px;
+    }
+
+    .started span {
+        margin-left: 10px;
+    }
+
+    .logo {
+        font-size: 14px;
+    }
+
+    .menu-block ul {
+        max-width: 150px;
+        font-size: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        column-gap: 15px;
+        row-gap: 4px;
+    }
+
+    .sign-up p {
+        font-size: 14px;
+    }
+
+    .hero-section {
+        max-width: 220px;
+        padding-top: 35px;
+    }
+
+    .gratulation {
+        font-size: 12px;
+    }
+
+    .hero-title {
+        font-size: 32px;
+        padding-bottom: 15px;
+    }
+
+    .hero-info {
+        padding-bottom: 10px;
+    }
+
+    .info {
+        font-size: 10px;
+    }
+
+    .hero {
+        width: 300px;
+        position: absolute;
+        top: 100px;
+        right: -140px;
+    }
+
+    .sponsors {
+        height: 45px;
+    }
+
+    .sponsors-container {
+        height: 100%;
+        max-width: 400px;
+    }
+
+    .Paypal {
+        width: 20px;
+    }
+
+    .Webflow {
+        width: 75px;
+    }
+
+    .Google {
+        width: 55px;
+    }
+
+    .amazon {
+        width: 50px;
+    }
+
+    .Adobe {
+        width: 20px;
+    }
+
+    .services {
+        margin: 50px 0px;
+    }
+
+    .services-info {
+        width: 110px;
+        margin-right: 10px;
+    }
+
+    .services-title {
+        padding: 10px 0 10px 0;
+        font-size: 20px;
+    }
+
+    .info-block {
+        max-width: 130px;
+        padding-top: 10px;
+    }
+
+    .services-block {
+        width: 120px;
+        height: 190px;
+        padding: 10px 10px;
+    }
+
+    .services-line {
+        height: 1px;
+        margin: 5px 0 10px 0;
+    }
+
+    .services-block-title {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .services-block-info {
+        font-size: 8px;
+    }
+
+    .services-arrow {
+        margin-top: 10px;
+    }
+
+    .arrow-top {
+        width: 25px;
+        height: 25px;
+    }
+
+    .arrow-top img {
+        width: 12px;
+        height: 12px;
+    }
+
+    .benefits {
+        margin-bottom: 70px;
+    }
+
+    .benefits-info {
+        max-width: 220px;
+    }
+
+    .benefits-title {
+        padding: 10px 0px;
+        max-width: 220px;
+        font-size: 20px;
+    }
+
+    .numbers-block {
+        padding-top: 25px;
+        row-gap: 8px;
+    }
+
+    .number {
+        font-size: 12px;
+    }
+
+    .number-byline {
+        font-size: 10px;
+    }
+
+    .map-img {
+        max-width: 150px;
+    }
+
+    .transaction {
+        margin-bottom: 80px;
+    }
+
+    .transaction .info {
+        font-size: 10px;
+        padding-bottom: 25px;
+    }
+
+    .transaction-img {
+        max-width: 180px;
+    }
+
+    .globalpay-block {
+        width: 140px;
+        padding: 5px 15px;
+        height: 170px;
+    }
+
+    .globalpay-picture {
+        width: 30px;
+        height: 30px;
+    }
+
+    .globalpay-picture img {
+        width: 12px;
+    }
+
+    .globalpay-title {
+        width: 100px;
+        font-size: 12px;
+    }
+
+    .globalpay-info {
+        width: 90px;
+        font-size: 8px;
+    }
+
+    .more-info {
+        font-size: 12px;
+    }
+
+    .more-info img {
+        width: 14px;
+        padding-left: 5px;
+    }
+
+    .businesses {
+        padding: 25px 0;
+    }
+
+    .businesses-info {
+        margin-bottom: 25px;
+    }
+
+    .information {
+        max-width: 200px;
+    }
+
+    .information p {
+        font-size: 10px;
+        padding-bottom: 5px;
+    }
+
+    .information h2 {
+        font-size: 25px;
+    }
+
+    .buttons {
+        column-gap: 10px;
+    }
+
+    .btn {
+        width: 25px;
+        height: 25px;
+    }
+
+    .btn svg {
+        width: 11px;
+        height: 14px;
+    }
+
+    td {
+        width: 50px;
+    }
+
+    .reviews {
+        column-gap: 15px;
+    }
+
+    .reviews-block {
+        width: 200px;
+        height: 200px;
+        padding: 0 20px;
+    }
+
+    .reviews-text {
+        font-size: 10px;
+        line-height: 13px;
+        width: 150px;
+    }
+
+    .user-name {
+        font-size: 10px;
+    }
+
+    .user-job {
+        font-size: 8px;
+    }
+
+    .reviews-block img {
+        width: 42px;
+    }
+
+    .footer-title {
+        padding: 10px 0 20px 0;
+        margin: 40px 0 60px 0;
+    }
+
+    .title-text {
+        max-width: 300px;
+        font-size: 25px;
+    }
+
+    .footer-info {
+        padding-bottom: 20px;
+        flex-wrap: wrap;
+    }
+
+    .footer-info li {
+        font-size: 10px;
+        margin-bottom: 8px;
+    }
+
+    .social-info {
+        max-width: 80px;
+        font-size: 8px;
+        margin: 15px 0 2j0px 0;
+    }
+
+    .social {
+        display: flex;
+        column-gap: 8px;
+    }
+
+    .social img {
+        width: 14px;
+    }
+
+    .company-title {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .company li {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .newsletter{
+        padding-top: 20px;
+    }
+    .newsletter-title {
+        font-size: 14px;
+    }
+
+    .email-block {
+        margin: 10px 0;
+    }
+
+    .email-input {
+        width: 160px;
+        height: 28px;
+    }
+
+    .email-btn {
+        height: 28px;
+        width: 80px;
+        font-size: 10px;
+    }
+
+    .newsletter-info {
+        font-size: 10px;
+        line-height: 16px;
+        max-width: 250px;
+    }
+
+    .email-input[type="text"] {
+        padding-left: 10px;
+        font-size: 12px;
+    }
+
+    footer {
+        height: 60px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+}
